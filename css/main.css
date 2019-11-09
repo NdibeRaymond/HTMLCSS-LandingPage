@@ -9,6 +9,67 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 /***************************************/
 
 
+.header-nav {
+  border-bottom: 1px solid #a0a0a0;
+}
+
+.brand {
+  width: 170px;
+  height: 85px;
+  margin-left: -15px;
+  margin-right: 60px;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.search-box{
+  width: 330px;
+  height: 30px;
+  padding: 6px 12px;
+  border: 1px solid #a0a0a0;
+}
+
+.search-button{
+  background-color: #a0a0a0;
+  color: #ffffff;
+  width: 100px;
+  height: 30px;
+  border: 0;
+  padding: 0;
+}
+
+.nav-list {
+  padding-left: 0;
+  width: 575px;
+  margin-top: 10px;
+}
+
+li a {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+.profile {
+  margin-left: auto;
+}
+
+.account {
+  text-align: right;
+  padding:15px;
+  color: #364147;
+  font-size: 14px;
+}
+
+.profile-pic{
+  border-radius: 100px;
+  max-width: 100%;
+}
 .container{
   margin: 0 auto;
   max-width: 1170px;
