@@ -411,7 +411,7 @@ footer a:hover {
 .newsletter button {
   width: 150px;
   min-width: auto;
-  text-decoration: uppercase;
+  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
