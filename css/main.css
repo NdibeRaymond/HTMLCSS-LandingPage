@@ -79,37 +79,6 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   max-width: 100%;
 }
 
-
-.hero {
-  background-image: url("../img/hero.jpg");
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  text-transform: uppercase;
-}
-
-.hero  h1 {
-  position: relative;
-  left: -30px;
-}
-
-.hero  h2{
-  color: #faa541;
-}
-
-.hero  h1,.hero  h2{
-  font-weight: 700;
-  font-size: 63px;
-  line-height: 0.9;
-}
-
-.hero p {
-  letter-spacing: 2px;
-  font-weight: 700;
-  font-size: 21px;
-  margin:0 10px 0;
-}
-
 .banner {
   margin: 55px 15px;
   width: 100%;
@@ -132,7 +101,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 }
 
 
-.banner-text:last-child,.banner-text > div {
+.banner-text > div:last-child {
   font-size: 16px;
   font-weight: 400;
   margin-top: 5px;
@@ -241,4 +210,35 @@ section {
 .text-primary{
  font-size: 16px;
  color: #364147;
+}
+
+
+.hero {
+  background-image: url("../img/hero.jpg");
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+  text-transform: uppercase;
+}
+
+.hero  h1 {
+  position: relative;
+  left: -30px;
+}
+
+.hero  h2{
+  color: #faa541;
+}
+
+.hero  h1,.hero  h2{
+  font-weight: 700;
+  font-size: 63px;
+  line-height: 0.9;
+}
+
+.hero p {
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: 21px;
+  margin:0 0 10px;
 }
