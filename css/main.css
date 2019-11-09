@@ -84,26 +84,26 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   background-image: url("../img/hero.jpg");
   height: 400px;
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   text-transform: uppercase;
 }
 
-.hero div h1 {
+.hero  h1 {
   position: relative;
   left: -30px;
 }
 
-.hero div h2{
+.hero  h2{
   color: #faa541;
 }
 
-.hero div h1,.hero div h2{
+.hero  h1,.hero  h2{
   font-weight: 700;
   font-size: 63px;
   line-height: 0.9;
 }
 
-.hero div p {
+.hero p {
   letter-spacing: 2px;
   font-weight: 700;
   font-size: 21px;
@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 }
 
 
-.banner-text:last-child {
+.banner-text:last-child,.banner-text > div {
   font-size: 16px;
   font-weight: 400;
   margin-top: 5px;
