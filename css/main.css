@@ -247,7 +247,7 @@ section {
 }
 
 
-.full-banner::before {
+.full-banner:before {
   content: "";
   position: absolute;
   border: 1px solid #ffffff;
@@ -262,7 +262,7 @@ section {
 
 .full-banner-image {
   flex: 0 0 58.333333%;
-  background-image: url("../img/vista.jpg");
+  background-image: url('../img/vista.jpg');
   background-size: cover;
   background-position: top center;
   min-height: 400px;
@@ -286,7 +286,7 @@ section {
 
 
 
-.full-banner-sidebar h4::after {
+.full-banner-sidebar h4:after {
   content: "";
   width: 100px;
   height: 1px;
