@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 }
 
 .section {
-  display:flex;
+  display: flex;
 }
 
 .flex {
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
 
 .btn {
   cursor:pointer;
-  border: none;
+  border: 0;
   padding:6px 12px;
   border-radius: 3px;
   line-height: 1.4;
