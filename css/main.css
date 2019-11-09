@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
   margin-top: 10px;
 }
 
-li a {
+.nav-list li a {
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.2px;
@@ -63,10 +63,18 @@ li a {
   text-align: right;
   padding:15px;
   color: #364147;
+  font-size: 18px;
+}
+.account a {
   font-size: 14px;
 }
 
 .profile-pic{
+  width: 60px;
+  height: 60px;
+}
+
+.profile-pic img{
   border-radius: 100px;
   max-width: 100%;
 }
