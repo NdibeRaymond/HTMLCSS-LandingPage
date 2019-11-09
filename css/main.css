@@ -321,10 +321,11 @@ footer {
   position: relative;
   z-index: 0;
   min-height: 330px;
-  color: black;
+  background-color: black;
 }
 
 footer:after {
+  content: "";
   background-color: #a0a0a0;
   width: 75%;
   position: absolute;
@@ -335,10 +336,9 @@ footer:after {
   z-index: -1;
 }
 
-.list {
+.lists {
   flex: 0 0 75%;
-  column-gap: 30px;
-  padding-bottom: 40px;
+  padding: 40px 15px;
 }
 
 .link-header {
@@ -415,7 +415,7 @@ footer a:hover {
   margin-bottom: 10px;
 }
 
-.newsletter  button {
+.newsletter button {
   width: 150px;
   min-width: auto;
   text-decoration: uppercase;
@@ -423,12 +423,16 @@ footer a:hover {
 }
 
 
-.ps {
+.ps{
   flex: 0 0 25%;
   padding: 40px 0;
   color: #e5e5e5;
   font-size: 16px;
+}
+
+.ps img {
   max-width: 230px;
+
 }
 
 .demo {
